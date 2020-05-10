@@ -1,0 +1,29 @@
+{
+  "name": "elm-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphrubant/elm-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphrubant/elm-todo/issues"
+  },
+  "homepage": "https://github.com/jphrubant/elm-todo#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.1.4",
+    "node-elm-compiler": "^5.0.4"
+  }
+}

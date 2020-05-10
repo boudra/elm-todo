@@ -86,7 +86,7 @@ viewTodo index todo =
 view : Model -> Html Message
 view model = 
     Html.form [ onSubmit AddTodo] 
-        [ h1 [] [ text "Todos in Elm"]
+        [ h1 [ class "title"] [ text "Todos in Elm"]
         , input [value model.inputText, onInput ChangeInput, placeholder "What you want to do?"] []
         , if List.isEmpty model.todos then
             p [] [text "The list is cleeean" ]
